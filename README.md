@@ -66,10 +66,12 @@ src/
 │ ├── ProjectCard.jsx
 │ ├── ScrollToTop.jsx
 │ └── SkillCard.jsx
+│
 ├── data/
 │ ├── profileData.js
 │ ├── projectsData.js
 │ └── skillsData.js
+│
 ├── pages/
 │ ├── About.jsx
 │ ├── Contact.jsx
@@ -77,6 +79,7 @@ src/
 │ ├── NotFound.jsx
 │ ├── Projects.jsx
 │ └── Skills.jsx
+│
 ├── styles/
 │ ├── about.css
 │ ├── contact.css
@@ -85,6 +88,7 @@ src/
 │ ├── navbar.css
 │ ├── projects.css
 │ └── skills.css
+│
 ├── App.css
 ├── App.jsx
 ├── index.css
