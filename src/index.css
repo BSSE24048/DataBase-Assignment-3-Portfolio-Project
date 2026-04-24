@@ -1,0 +1,125 @@
+:root {
+  --bg: #f9fafb;
+  --card: #ffffff;
+  --text: #1f2933;
+  --text-light: #6b7280;
+  --accent: #4f46e5;
+  --accent2: #7c3aed;
+  --border: #e5e7eb;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* Layout */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  position: relative;
+  z-index: 1; 
+}
+
+/* Smooth UI */
+* {
+  transition: all 0.2s ease;
+}
+
+/* Buttons */
+.btn-primary {
+  display: inline-block;
+  text-decoration: none;
+  background: linear-gradient(90deg, #6366f1, #a855f7);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  text-decoration: none !important;
+  border: 1px solid #6366f1;
+  color: #6366f1;
+  padding: 12px 24px;
+  border-radius: 999px;
+}
+
+.btn-secondary:hover {
+  background: #6366f1;
+  color: white;
+}
+
+
+
+.bg-animation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+  background: #f9fafb;
+  pointer-events: none; 
+}
+
+/* blobs */
+.bg-animation::before,
+.bg-animation::after {
+  content: "";
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  filter: blur(90px);
+  opacity: 0.45;
+  animation: float 18s infinite ease-in-out;
+}
+
+.bg-animation::before {
+  background: #3b82f6;
+  top: 10%;
+  left: 10%;
+}
+
+.bg-animation::after {
+  background: #8b5cf6;
+  bottom: 10%;
+  right: 10%;
+  animation-delay: 4s;
+}
+
+.bg-animation span {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  background: #22d3ee;
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: 0.3;
+  top: 50%;
+  left: 50%;
+  animation: float2 22s infinite ease-in-out;
+}
+
+/* animations */
+@keyframes float {
+  0% { transform: translate(0, 0); }
+  50% { transform: translate(80px, -80px); }
+  100% { transform: translate(0, 0); }
+}
+
+@keyframes float2 {
+  0% { transform: translate(-50%, -50%) scale(1); }
+  50% { transform: translate(-40%, -60%) scale(1.2); }
+  100% { transform: translate(-50%, -50%) scale(1); }
+}
