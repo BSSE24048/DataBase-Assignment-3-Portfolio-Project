@@ -113,9 +113,6 @@ public/Ruhma_Yasir_cv.pdf
 
 ---
 
-## 🚀 Getting Started
-
-```bash
 # Clone repository
 git clone https://github.com/your-username/portfolio.git
 
