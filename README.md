@@ -119,7 +119,7 @@ public/Ruhma_Yasir_cv.pdf
 ---
 
 # Clone repository
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/BSSE24048/DataBase-Assignment-3-Portfolio-Project.git
 
 # Navigate into project
 cd portfolio
