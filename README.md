@@ -55,44 +55,45 @@ This portfolio follows a **light-themed futuristic UI** with:
 
 ## 📁 Project Structure
 
-
+```
 src/
 ├── assets/
 ├── components/
-│ ├── ContactForm.jsx
-│ ├── Footer.jsx
-│ ├── HeroSection.jsx
-│ ├── Navbar.jsx
-│ ├── ProjectCard.jsx
-│ ├── ScrollToTop.jsx
-│ └── SkillCard.jsx
+│   ├── ContactForm.jsx
+│   ├── Footer.jsx
+│   ├── HeroSection.jsx
+│   ├── Navbar.jsx
+│   ├── ProjectCard.jsx
+│   ├── ScrollToTop.jsx
+│   └── SkillCard.jsx
 │
 ├── data/
-│ ├── profileData.js
-│ ├── projectsData.js
-│ └── skillsData.js
+│   ├── profileData.js
+│   ├── projectsData.js
+│   └── skillsData.js
 │
 ├── pages/
-│ ├── About.jsx
-│ ├── Contact.jsx
-│ ├── Home.jsx
-│ ├── NotFound.jsx
-│ ├── Projects.jsx
-│ └── Skills.jsx
+│   ├── About.jsx
+│   ├── Contact.jsx
+│   ├── Home.jsx
+│   ├── NotFound.jsx
+│   ├── Projects.jsx
+│   └── Skills.jsx
 │
 ├── styles/
-│ ├── about.css
-│ ├── contact.css
-│ ├── footer.css
-│ ├── home.css
-│ ├── navbar.css
-│ ├── projects.css
-│ └── skills.css
+│   ├── about.css
+│   ├── contact.css
+│   ├── footer.css
+│   ├── home.css
+│   ├── navbar.css
+│   ├── projects.css
+│   └── skills.css
 │
 ├── App.css
 ├── App.jsx
 ├── index.css
 └── main.jsx
+```
 
 
 ---
