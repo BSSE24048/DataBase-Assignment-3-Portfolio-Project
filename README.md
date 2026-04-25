@@ -145,9 +145,8 @@ Frontend Development
 UI/UX Design
 Modern Web Technologies
 📫 Contact
-Email: (add email)
-GitHub: (add github)
-LinkedIn: (add linkedin)
+Email: bsse24058@itu.edu.pk
+GitHub: https://github.com/BSSE24048
 🔮 Future Improvements
 Backend integration for contact form
 Dark/Light mode toggle
