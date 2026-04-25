@@ -1,8 +1,11 @@
 import "../styles/skills.css";
+import { useEffect } from "react";
 
 function Skills() {
 
   useEffect(() => {
+    console.log("Skills page rendering");
+
       console.log("Skills page loaded");
       document.title = "Skills | Portfolio";  // also satisfies title requirement
     }, []);

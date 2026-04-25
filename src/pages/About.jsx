@@ -1,12 +1,13 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "../styles/about.css";
 
 function About() {
-  useEffect(() => {
+  console.log("About page rendering");
 
-      console.log("About page loaded");
-      document.title = "About | Portfolio";  // also satisfies title requirement
-    }, []);
+  useEffect(() => {
+    console.log("About page loaded");
+    document.title = "About | Portfolio";
+  }, []);
 
   const [showMore, setShowMore] = useState(false);
 
